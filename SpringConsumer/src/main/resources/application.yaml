@@ -2,7 +2,14 @@
 spring:
   application:
     name: spring-consumer
+  kafka:
+    bootstrap-servers: localhost:9092
 
 # infra
 server:
   port: 8082
+
+# custom
+tutorialKafka:
+  topic:
+    name: "topic-greeting"

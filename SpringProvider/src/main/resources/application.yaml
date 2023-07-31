@@ -2,7 +2,14 @@
 spring:
   application:
     name: spring-provider
+  kafka:
+    bootstrap-servers: localhost:9092
 
 # infra
 server:
   port: 8081
+
+# custom
+tutorialKafka:
+  topic:
+    name: "topic-greeting"
