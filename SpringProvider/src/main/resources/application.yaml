@@ -1,0 +1,8 @@
+# spring
+spring:
+  application:
+    name: spring-provider
+
+# infra
+server:
+  port: 8081

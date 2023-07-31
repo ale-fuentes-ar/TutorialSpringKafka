@@ -1,0 +1,8 @@
+# spring
+spring:
+  application:
+    name: spring-consumer
+
+# infra
+server:
+  port: 8082
