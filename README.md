@@ -4,10 +4,16 @@
 
 Hi guys, in this project I do a simple two projects where see how to Spring use kafka, with a production-api a one consumer-api.
 
-> Note: when execute docker cmd, make sure to start Docker Desktop.
+<a href="https://github.com/ale-fuentes-ar/TutorialSpringKafka">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ale-fuentes-ar&repo=TutorialSpringKafka&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+</a>
 
+<br>
 
 For execute Kafka enviroment, can be use to `dc-kafka-container.yml`
+
+> Note: when execute docker cmd, make sure to start Docker Desktop.
+
 ```bash
 docker-compose -f dc-kafka-container.yml up --build -d
 
